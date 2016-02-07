@@ -20,3 +20,15 @@ I already have EGit installed on Eclipse.
 7). Log on to GitHub.com and create a new repository. Copy the URL of the repo.
 
 8). Right click on the "Remotes" in Git Repositories window and select Create Remote. Keep the name origin for the remote and select "Configure Push".
+
+9). In the "Configure Push" window, if the URL field is blank, click "Change" button and paste the GitHub repo URL.
+
+10). In the "Configure Push" window, click "Advanced" button to add Refspecs. 
+
+11). Select Source ref - "master (branch)". Destination Ref is automatically prepopulated.
+
+12). Click "Add Spec" button next to the Destination Ref dropdown. This will add the new push spec.
+
+13). Check the "Save specifications to origin configuration" and click Finish.
+
+14). Click Save and Push (Or Save first and then Push by selecting the branch in Remotes) to push the code to GitHub remote repo.
