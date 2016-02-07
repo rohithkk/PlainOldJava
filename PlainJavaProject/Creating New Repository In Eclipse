@@ -3,5 +3,20 @@ I already have EGit installed on Eclipse.
 ------------------------XXXXXXXXXXXXXXXXXXXXXXXXX------------------------
 
 1). Create new project in Eclipse workspace.
+
 2). Right click on the project, select Team -> Share -> Git
-3). If you already have a local repository, select it from the list. Otherwise, click Create button to create a new local repository.
+
+3). If you already have a local repository, select it from the list. Otherwise, click Create button 
+	to create a new local repository.
+	
+4). Click finish to add the project to Git. At this time, you project may be moved from your original Eclipse workspace 
+	to the Git local repository path you've mentioned in the above step. If you have any files from your project opened 
+	and if you try to edit those file, you will get a prompt saying that the orignal file no longer exists. 
+	
+5). Now, right click on the project, Team-> Commit. Enter a commit message, select all the files that need to be committed to the repo and click finish.
+
+6). At this time, you can see master being created under the Local Branch. (Open Git Repositories view or swtich to Git Perspective to see this).
+
+7). Log on to GitHub.com and create a new repository. Copy the URL of the repo.
+
+8). Right click on the "Remotes" in Git Repositories window and select Create Remote. Keep the name origin for the remote and select "Configure Push".
