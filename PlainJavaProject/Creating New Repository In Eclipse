@@ -1,0 +1,7 @@
+These are the steps to add your existing code to GitHub assuming that 
+I already have EGit installed on Eclipse.
+------------------------XXXXXXXXXXXXXXXXXXXXXXXXX------------------------
+
+1). Create new project in Eclipse workspace.
+2). Right click on the project, select Team -> Share -> Git
+3). If you already have a local repository, select it from the list. Otherwise, click Create button to create a new local repository.
